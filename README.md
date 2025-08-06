@@ -26,7 +26,7 @@
 - **Giao tiếp**: UART
 
 **Hình ảnh:** 
-<img width="1000" height="1000" alt="image" src="https://github.com/user-attachments/assets/5695b051-ccf9-4f01-881a-93c3349ceaf1" />
+<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/5695b051-ccf9-4f01-881a-93c3349ceaf1" />
 
 _Hình 1.2.1.1: ESP32 NodeMCU LuaNode32_  
 ![ESP32 NodeMCU](path/to/esp32_image.png)
