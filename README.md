@@ -66,15 +66,14 @@
 - **Tụ điện 100 nF:**  
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/ddd9cc15-bf2a-4842-b4a4-8d16a5d202d0" />
 
-- **Nút bấm:**  
+- **Nút bấm 4 chân:**  
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/394a7cae-ec3d-4ac8-922a-c8dd978b71aa" />
 
-
 - **Dây nối:**  
-
+<img width="900" height="500" alt="image" src="https://github.com/user-attachments/assets/1f6696fc-fe47-4dd6-9a50-873333bd0591" />
 
 - **Breadboard:**  
-
+<img width="348" height="145" alt="image" src="https://github.com/user-attachments/assets/bfa7e698-1a4d-4bf1-987d-d96b26547edc" />
 
 # 1.3. Phần mềm
 
@@ -127,22 +126,19 @@ Mạch điện gồm:
 ### 2.1.2. Thiết kế giải thuật
 
 - **Hàm `main`**  
-  _Hình 2.1.2.1: Lưu đồ giải thuật hàm main_  
-  ![Lưu đồ main](path/to/main_flowchart.png)
+<img width="289" height="640" alt="image" src="https://github.com/user-attachments/assets/5850002c-1809-4c35-b368-63a6d72de3f2" />
+
 
 - **Hàm `Digital_Clock1`**  
-  _Hình 2.1.2.2: Lưu đồ giải thuật hàm Digital_Clock1_  
-  ![Lưu đồ Digital_Clock1](path/to/digital_clock1_flowchart.png)
+<img width="733" height="730" alt="image" src="https://github.com/user-attachments/assets/c3a1eb72-6a76-4f18-9abd-73d1ff1311eb" />
 
-> 📁 [Link Google Drive lưu đồ giải thuật hàm Digital_Clock1](https://drive.google.com/drive/folders/1FeIoh2-8VgUvKzssOEODpDEAD6scQ6Hz)
+> [Link Google Drive lưu đồ giải thuật hàm Digital_Clock1](https://drive.google.com/drive/folders/1FeIoh2-8VgUvKzssOEODpDEAD6scQ6Hz)
 
 ## 2.2. Mô phỏng mạch điện
 
 - **Sử dụng ESP-IDF**: Viết code, biên dịch và debug.
 - **Sử dụng Wokwi**: Mô phỏng mạch điện chạy với code thực tế.
-
-_Hình 2.2.1: Mô phỏng chức năng mạch điện bằng Wokwi_  
-![Mô phỏng Wokwi](path/to/wokwi_simulation.png)
+<img width="1006" height="358" alt="image" src="https://github.com/user-attachments/assets/43d4acb9-fe7e-49c8-9bdf-dc7c34bc5589" />
 
 🎥 **Link video mô phỏng**:  
 👉 [Xem video mô phỏng trên Google Drive](https://drive.google.com/drive/folders/1i89lKB27OIh0nQNkSJBFeN2ZRbA8Jovt?usp=sharing)
@@ -150,19 +146,15 @@ _Hình 2.2.1: Mô phỏng chức năng mạch điện bằng Wokwi_
 ## 2.3. Hiện thực mạch điện
 
 ### 2.3.1. Kiểm thử mạch điện trên breadboard
-
-_Hình 2.3.1.1: Kiểm thử mạch điện_  
-![Kiểm thử](path/to/breadboard_test.png)
+<img width="548" height="1217" alt="image" src="https://github.com/user-attachments/assets/c63e0933-abd2-4652-b2a2-3a906ba8122d" />
 
 ### 2.3.2. Vẽ sơ đồ mạch điện và PCB
 
 - **Phần mềm sử dụng**: EasyEDA
+<img width="870" height="449" alt="image" src="https://github.com/user-attachments/assets/ca4fba63-511f-47bf-9bf8-0b2eb8e34804" />
 
-_Hình 2.3.2.1: Sơ đồ mạch điện_  
-![Sơ đồ mạch điện](path/to/circuit_diagram.png)
+<img width="831" height="589" alt="image" src="https://github.com/user-attachments/assets/9a05d0e5-44af-4d99-80e0-76fd454f1802" />
 
-_Hình 2.3.2.2: Sơ đồ PCB_  
-![Sơ đồ PCB](path/to/pcb_layout.png)
 ### 2.3.3. Hàn linh kiện lên bảng mạch PCB
 ### 2.3.4. Hoàn thiện mạch điện
 ---
