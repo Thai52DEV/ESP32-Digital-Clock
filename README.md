@@ -204,4 +204,6 @@ _Hình 2.3.2.2: Sơ đồ PCB_
 ---
 
 ### 2.3.4. Hoàn thiện mạch điện
-
+---
+# 3. Kết quả
+https://drive.google.com/drive/folders/1i89lKB27OIh0nQNkSJBFeN2ZRbA8Jovt
