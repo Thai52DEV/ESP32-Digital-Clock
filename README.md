@@ -165,19 +165,12 @@ Mạch điện gồm:
 
 ---
 
-## 2.2. Viết code
-
-📌 **Link GitHub mã nguồn**:  
-👉 [https://github.com/QuocNguyen254/ESP32-Clock/tree/main](https://github.com/QuocNguyen254/ESP32-Clock/tree/main)
-
----
-
-## 2.3. Mô phỏng mạch điện
+## 2.2. Mô phỏng mạch điện
 
 - **Sử dụng ESP-IDF**: Viết code, biên dịch và debug.
 - **Sử dụng Wokwi**: Mô phỏng mạch điện chạy với code thực tế.
 
-_Hình 2.3.1: Mô phỏng chức năng mạch điện bằng Wokwi_  
+_Hình 2.2.1: Mô phỏng chức năng mạch điện bằng Wokwi_  
 ![Mô phỏng Wokwi](path/to/wokwi_simulation.png)
 
 🎥 **Link video mô phỏng**:  
@@ -185,30 +178,30 @@ _Hình 2.3.1: Mô phỏng chức năng mạch điện bằng Wokwi_
 
 ---
 
-## 2.4. Hiện thực mạch điện
+## 2.3. Hiện thực mạch điện
 
-### 2.4.1. Kiểm thử mạch điện trên breadboard
+### 2.3.1. Kiểm thử mạch điện trên breadboard
 
-_Hình 2.4.1.1: Kiểm thử mạch điện_  
+_Hình 2.3.1.1: Kiểm thử mạch điện_  
 ![Kiểm thử](path/to/breadboard_test.png)
 
 ---
 
-### 2.4.2. Vẽ sơ đồ mạch điện và PCB
+### 2.3.2. Vẽ sơ đồ mạch điện và PCB
 
 - **Phần mềm sử dụng**: EasyEDA
 
-_Hình 2.4.2.1: Sơ đồ mạch điện_  
+_Hình 2.3.2.1: Sơ đồ mạch điện_  
 ![Sơ đồ mạch điện](path/to/circuit_diagram.png)
 
-_Hình 2.4.2.2: Sơ đồ PCB_  
+_Hình 2.3.2.2: Sơ đồ PCB_  
 ![Sơ đồ PCB](path/to/pcb_layout.png)
 
 ---
 
-### 2.4.3. Hàn linh kiện lên bảng mạch PCB
+### 2.3.3. Hàn linh kiện lên bảng mạch PCB
 
 ---
 
-### 2.4.4. Hoàn thiện mạch điện
+### 2.3.4. Hoàn thiện mạch điện
 
