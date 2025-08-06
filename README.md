@@ -25,12 +25,7 @@
 - **Vi xử lý chính**: ESP-WROOM-32  
 - **Giao tiếp**: UART
 
-**Hình ảnh:** 
-<img width="500" height="500" alt="image" src="https://github.com/user-attachments/assets/5695b051-ccf9-4f01-881a-93c3349ceaf1" />
-
-_Hình 1.2.1.1: ESP32 NodeMCU LuaNode32_  
-![ESP32 NodeMCU](path/to/esp32_image.png)
-
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/5695b051-ccf9-4f01-881a-93c3349ceaf1" />
 ## 1.2.2. Màn hình LCD1602
 
 - **Số ký tự**: 16x02 ký tự  
@@ -38,10 +33,7 @@ _Hình 1.2.1.1: ESP32 NodeMCU LuaNode32_
 - **Điện áp cấp**: 3.3V  
 - **Màu nền**: Xanh dương  
 - **Màu chữ**: Trắng
-
-**Hình ảnh:**  
-_Hình 1.2.2.1: Màn hình LCD1602_  
-![LCD1602](path/to/lcd1602_image.png)
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/95a73f22-a7a4-47b8-bec7-9347a5fe602d" />
 
 ## 1.2.3. Buzzer
 
@@ -55,9 +47,7 @@ _Hình 1.2.2.1: Màn hình LCD1602_
 - **Dòng điện**: 100mA  
 - **Tần số**: 2700Hz
 
-**Hình ảnh:**  
-_Hình 1.2.3.1: Buzzer_  
-![Buzzer](path/to/buzzer_image.png)
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/3446d235-9c4e-472c-a02b-76d140b1d830" />
 
 ## 1.2.4. Cảm biến nhiệt độ, độ ẩm DHT22
 
@@ -65,31 +55,26 @@ _Hình 1.2.3.1: Buzzer_
 - **Ngõ ra**: Digital  
 - **Nguồn cấp**: 3.3V
 
-**Hình ảnh:**  
-_Hình 1.2.4.1: DHT22_  
-![DHT22](path/to/dht22_image.png)
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/a14233ac-0f13-4cb1-bcda-456b015c735f" />
+
 
 ## 1.2.5. Các linh kiện khác
 
-- **Điện trở:**  
-  _Hình 1.2.5.1: Điện trở 10kOhm_  
-  ![Điện trở](path/to/resistor_image.png)
+- **Điện trở 10k Ohm:**  
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/4c67a3e7-7fce-4ff0-ac80-99bbe3bd871c" />
 
-- **Tụ điện:**  
-  _Hình 1.2.5.2: Tụ Gốm Tròn 100nF_  
-  ![Tụ điện](path/to/capacitor_image.png)
+- **Tụ điện 100 nF:**  
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/ddd9cc15-bf2a-4842-b4a4-8d16a5d202d0" />
 
 - **Nút bấm:**  
-  _Hình 1.2.5.3: Nút bấm 4 chân_  
-  ![Nút bấm](path/to/button_image.png)
+<img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/394a7cae-ec3d-4ac8-922a-c8dd978b71aa" />
+
 
 - **Dây nối:**  
-  _Hình 1.2.5.4: Dây nối cái-cái, đực-cái, đực-đực_  
-  ![Dây nối](path/to/wires_image.png)
+
 
 - **Breadboard:**  
-  _Hình 1.2.5.5: Breadboard_  
-  ![Breadboard](path/to/breadboard_image.png)
+
 
 # 1.3. Phần mềm
 
