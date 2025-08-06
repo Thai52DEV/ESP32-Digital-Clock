@@ -26,6 +26,7 @@
 - **Giao tiếp**: UART
 
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/5695b051-ccf9-4f01-881a-93c3349ceaf1" />
+
 ## 1.2.2. Màn hình LCD1602
 
 - **Số ký tự**: 16x02 ký tự  
@@ -60,11 +61,13 @@
 
 ## 1.2.5. Các linh kiện khác
 
-- **Điện trở 10k Ohm:**     - **Tụ điện 100 nF:**   - **Nút bấm 4 chân:** 
+- **Điện trở 10k Ohm:**        
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/4c67a3e7-7fce-4ff0-ac80-99bbe3bd871c" />
+
+- **Tụ điện 100 nF:**
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/ddd9cc15-bf2a-4842-b4a4-8d16a5d202d0" />
 
- 
+- **Nút bấm 4 chân:**  
 <img width="300" height="300" alt="image" src="https://github.com/user-attachments/assets/394a7cae-ec3d-4ac8-922a-c8dd978b71aa" />
 
 - **Dây nối:**  
