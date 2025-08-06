@@ -119,3 +119,96 @@ _Hình 1.2.4.1: DHT22_
 - Vẽ sơ đồ mạch điện
 - Thiết kế sơ đồ PCB
 
+# 2. THỰC HIỆN
+
+## 2.1. Thiết kế
+
+### 2.1.1. Thiết kế mạch điện
+
+Mạch điện gồm:
+
+- **ESP32 NodeMCU LuaNode32** với module thu phát WiFi 38 chân:  
+  Xử lý dữ liệu, thao tác với các nút, cảm biến DHT22, buzzer, lưu trữ và xuất dữ liệu ra màn hình LCD1602.
+
+- **Bốn nút bấm**:
+  - **Nút tăng giá trị**:  
+    Tăng giá trị thuộc tính trong chế độ 1 và 2; tiếp tục/dừng bấm giờ trong chế độ 3.
+  - **Nút giảm giá trị**:  
+    Giảm giá trị thuộc tính trong chế độ 1 và 2; reset đồng hồ bấm giờ về `00:00:00` trong chế độ 3.
+  - **Nút con trỏ**:  
+    Di chuyển con trỏ trên màn hình để chỉnh sửa các thuộc tính trong chế độ 1 và 2; tắt chuông báo thức trong cả ba chế độ (nếu có).
+  - **Nút chuyển chế độ**:  
+    Chuyển tuần tự giữa 3 chế độ: Màn hình chính → Báo thức → Bấm giờ → quay lại Màn hình chính.
+
+- **Cảm biến nhiệt độ, độ ẩm DHT22**:  
+  Cung cấp dữ liệu nhiệt độ, độ ẩm môi trường.
+
+- **Buzzer**:  
+  Làm chuông báo thức, phát âm thanh cảnh báo.
+
+- **Màn hình LCD1602**:  
+  Hiển thị dữ liệu: giờ, phút, giây, ngày, tháng, năm, nhiệt độ, độ ẩm, thời gian báo thức và bấm giờ.
+
+---
+
+### 2.1.2. Thiết kế giải thuật
+
+- **Hàm `main`**  
+  _Hình 2.1.2.1: Lưu đồ giải thuật hàm main_  
+  ![Lưu đồ main](path/to/main_flowchart.png)
+
+- **Hàm `Digital_Clock1`**  
+  _Hình 2.1.2.2: Lưu đồ giải thuật hàm Digital_Clock1_  
+  ![Lưu đồ Digital_Clock1](path/to/digital_clock1_flowchart.png)
+
+> 📁 [Link Google Drive lưu đồ giải thuật hàm Digital_Clock1](https://drive.google.com/drive/folders/1FeIoh2-8VgUvKzssOEODpDEAD6scQ6Hz)
+
+---
+
+## 2.2. Viết code
+
+📌 **Link GitHub mã nguồn**:  
+👉 [https://github.com/QuocNguyen254/ESP32-Clock/tree/main](https://github.com/QuocNguyen254/ESP32-Clock/tree/main)
+
+---
+
+## 2.3. Mô phỏng mạch điện
+
+- **Sử dụng ESP-IDF**: Viết code, biên dịch và debug.
+- **Sử dụng Wokwi**: Mô phỏng mạch điện chạy với code thực tế.
+
+_Hình 2.3.1: Mô phỏng chức năng mạch điện bằng Wokwi_  
+![Mô phỏng Wokwi](path/to/wokwi_simulation.png)
+
+🎥 **Link video mô phỏng**:  
+👉 [Xem video mô phỏng trên Google Drive](https://drive.google.com/drive/folders/1i89lKB27OIh0nQNkSJBFeN2ZRbA8Jovt?usp=sharing)
+
+---
+
+## 2.4. Hiện thực mạch điện
+
+### 2.4.1. Kiểm thử mạch điện trên breadboard
+
+_Hình 2.4.1.1: Kiểm thử mạch điện_  
+![Kiểm thử](path/to/breadboard_test.png)
+
+---
+
+### 2.4.2. Vẽ sơ đồ mạch điện và PCB
+
+- **Phần mềm sử dụng**: EasyEDA
+
+_Hình 2.4.2.1: Sơ đồ mạch điện_  
+![Sơ đồ mạch điện](path/to/circuit_diagram.png)
+
+_Hình 2.4.2.2: Sơ đồ PCB_  
+![Sơ đồ PCB](path/to/pcb_layout.png)
+
+---
+
+### 2.4.3. Hàn linh kiện lên bảng mạch PCB
+
+---
+
+### 2.4.4. Hoàn thiện mạch điện
+
