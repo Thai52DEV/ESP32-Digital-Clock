@@ -15,8 +15,6 @@
 - **Chế độ 3: Bấm giờ**  
   Đếm thời gian, dừng đếm thời gian, reset thời gian.
 
----
-
 # 1.2. Phần cứng
 
 ## 1.2.1. ESP32 NodeMCU LuaNode32
@@ -31,8 +29,6 @@
 _Hình 1.2.1.1: ESP32 NodeMCU LuaNode32_  
 ![ESP32 NodeMCU](path/to/esp32_image.png)
 
----
-
 ## 1.2.2. Màn hình LCD1602
 
 - **Số ký tự**: 16x02 ký tự  
@@ -44,8 +40,6 @@ _Hình 1.2.1.1: ESP32 NodeMCU LuaNode32_
 **Hình ảnh:**  
 _Hình 1.2.2.1: Màn hình LCD1602_  
 ![LCD1602](path/to/lcd1602_image.png)
-
----
 
 ## 1.2.3. Buzzer
 
@@ -63,8 +57,6 @@ _Hình 1.2.2.1: Màn hình LCD1602_
 _Hình 1.2.3.1: Buzzer_  
 ![Buzzer](path/to/buzzer_image.png)
 
----
-
 ## 1.2.4. Cảm biến nhiệt độ, độ ẩm DHT22
 
 - **Chức năng**: Đo nhiệt độ, độ ẩm  
@@ -74,8 +66,6 @@ _Hình 1.2.3.1: Buzzer_
 **Hình ảnh:**  
 _Hình 1.2.4.1: DHT22_  
 ![DHT22](path/to/dht22_image.png)
-
----
 
 ## 1.2.5. Các linh kiện khác
 
@@ -99,8 +89,6 @@ _Hình 1.2.4.1: DHT22_
   _Hình 1.2.5.5: Breadboard_  
   ![Breadboard](path/to/breadboard_image.png)
 
----
-
 # 1.3. Phần mềm
 
 ## 1.3.1. ESP-IDF
@@ -118,7 +106,7 @@ _Hình 1.2.4.1: DHT22_
 
 - Vẽ sơ đồ mạch điện
 - Thiết kế sơ đồ PCB
-
+---
 # 2. THỰC HIỆN
 
 ## 2.1. Thiết kế
@@ -149,8 +137,6 @@ Mạch điện gồm:
 - **Màn hình LCD1602**:  
   Hiển thị dữ liệu: giờ, phút, giây, ngày, tháng, năm, nhiệt độ, độ ẩm, thời gian báo thức và bấm giờ.
 
----
-
 ### 2.1.2. Thiết kế giải thuật
 
 - **Hàm `main`**  
@@ -163,8 +149,6 @@ Mạch điện gồm:
 
 > 📁 [Link Google Drive lưu đồ giải thuật hàm Digital_Clock1](https://drive.google.com/drive/folders/1FeIoh2-8VgUvKzssOEODpDEAD6scQ6Hz)
 
----
-
 ## 2.2. Mô phỏng mạch điện
 
 - **Sử dụng ESP-IDF**: Viết code, biên dịch và debug.
@@ -176,16 +160,12 @@ _Hình 2.2.1: Mô phỏng chức năng mạch điện bằng Wokwi_
 🎥 **Link video mô phỏng**:  
 👉 [Xem video mô phỏng trên Google Drive](https://drive.google.com/drive/folders/1i89lKB27OIh0nQNkSJBFeN2ZRbA8Jovt?usp=sharing)
 
----
-
 ## 2.3. Hiện thực mạch điện
 
 ### 2.3.1. Kiểm thử mạch điện trên breadboard
 
 _Hình 2.3.1.1: Kiểm thử mạch điện_  
 ![Kiểm thử](path/to/breadboard_test.png)
-
----
 
 ### 2.3.2. Vẽ sơ đồ mạch điện và PCB
 
@@ -196,13 +176,7 @@ _Hình 2.3.2.1: Sơ đồ mạch điện_
 
 _Hình 2.3.2.2: Sơ đồ PCB_  
 ![Sơ đồ PCB](path/to/pcb_layout.png)
-
----
-
 ### 2.3.3. Hàn linh kiện lên bảng mạch PCB
-
----
-
 ### 2.3.4. Hoàn thiện mạch điện
 ---
 # 3. Kết quả
